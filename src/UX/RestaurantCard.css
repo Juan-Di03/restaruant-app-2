@@ -1,0 +1,46 @@
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.expanded-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.expanded-card .card-img-top {
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  object-position: center;
+  padding: 1rem;
+  background-color: #f8f9fa; /* suave para que no se vea feo si hay espacio vacío */
+  border-radius: 0.5rem;
+}
+
+.ver-mas-btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ver-mas-btn:hover {
+  background-color: #ffc107; /* amarillo */
+  color: white;
+  border-color: #ffc107;
+}
+
+.card-title {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: 400; /* o ajusta según gusto */
+  font-size: 1.00rem; /* ajusta tamaño si quieres */
+}
+

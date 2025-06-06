@@ -1,0 +1,80 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Fondo gris oscuro y texto blanco */
+body, html, #root {
+  background-color: #1f1f1f;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.container {
+  color: white;
+}
+
+/* Tarjetas */
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.expanded-card .card-img-top {
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+}
+
+/* Botones */
+.btn-ver-mas {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-ver-mas:hover {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-ver-menos {
+  color: #ffc107;
+  border-color: #ffc107;
+  background-color: transparent;
+}
+
+.btn-ver-menos:hover {
+  background-color: #ffc107;
+  color: black;
+}
+
+.bg-granate {
+  background-color: #8B0000;
+}
+
+.navbar-brand {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+
+
